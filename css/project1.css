@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+.maincontainer {
+background-color: yellow;
+ padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+margin-bottom: 90px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+h5 {
+    color:black;
+    font-family: 'Poiret One', cursive;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+
+}
+.row {
+    clear: both;
+	padding:10px;
+	margin: 2px;
+    -webkit-columns: 90px 5; /* Chrome, Safari, Opera */
+    -moz-columns: 90px 5; /* Firefox */
+    columns: 90px 5;
+}
+
+
+
+.columns {
+	display: inline;
+	float:left;
+	margin: 10% 0 5% 3%;
+
+
+
+}
+.columns:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+   
+    -webkit-transition: all 5s ease-in-out;
+-moz-transition: all 5s ease-in-out;
+-ms-transition: all 5s ease-in-out;
+-o-transition: all 5s ease-in-out;
+transition: all 5s ease-in-out;
+
+}
+
+
